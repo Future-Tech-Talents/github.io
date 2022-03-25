@@ -1,6 +1,6 @@
 .main_header {
   display: flex;
-  justify-content: center
+  justify-content: center;
 }
 .header {
   padding-top:50px ;
@@ -15,7 +15,7 @@
   text-decoration: none;
   display: block;
   color: #000000;
-  
+
 
 }
 .header_text_contact_us {
@@ -40,13 +40,11 @@
   align-items: center;
   margin-top: 60px;
   margin-left: 40px;
-  cursor: pointer;
 }
 .icon_fb {
   padding-top: 68px;
   padding-left: 40px;
   cursor: pointer;
-  overflow: auto;
 }
 .icon_inst {
   padding-top: 68px;
@@ -73,6 +71,7 @@
   width: 640px;
   height: 335px;
   background: #37D5CF;
-  text-align: left;
-  border-radius: 33px;
+  text-align: start;
+  overflow: auto;
+  border-radius:0px 20px 0px 33px;
 }
