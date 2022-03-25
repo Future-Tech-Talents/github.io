@@ -1,0 +1,78 @@
+.main_header {
+  display: flex;
+  justify-content: center
+}
+.header {
+  padding-top:50px ;
+  padding-left: 80px;
+}
+.header_text_blog {
+  font-family: 'Inter';
+  font-weight: Bold;
+  font-size: 15px;
+  padding-left: 421px;
+  padding-top: 71px;
+  text-decoration: none;
+  display: block;
+  color: #000000;
+  
+
+}
+.header_text_contact_us {
+  display: block;
+  font-family: 'Inter';
+  font-weight: Bold;
+  font-size: 15px;
+  padding-left: 30px;
+  padding-top: 71px;
+  text-decoration: none;
+  color: #000000;
+}
+.dowload_app {
+  display: flex;
+  width: 133px;
+  height: 36px;
+  background: #6E51E0;
+  color:#FFFFFF;
+  border-radius: 33px;
+  text-decoration: none;
+  justify-content: center;
+  align-items: center;
+  margin-top: 60px;
+  margin-left: 40px;
+  cursor: pointer;
+}
+.icon_fb {
+  padding-top: 68px;
+  padding-left: 40px;
+  cursor: pointer;
+  overflow: auto;
+}
+.icon_inst {
+  padding-top: 68px;
+  padding-left: 20px;
+  cursor: pointer;
+}
+.icon_tw {
+  padding-top: 70px;
+  padding-left: 20px;
+  cursor: pointer;
+}
+.about_thrivein {
+  text-align: center;
+  padding-top: 222px;
+  font-family: 'Inter';
+  font-size: 50px;
+}
+.text_1 {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 40px;
+  width: 640px;
+  height: 335px;
+  background: #37D5CF;
+  text-align: left;
+  border-radius: 33px;
+}
