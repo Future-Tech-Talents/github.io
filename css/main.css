@@ -6,15 +6,13 @@
         /*Шапка сайта*/
 .main_header {
   display: flex;
-  padding-bottom: 50px;
 }
-
 .header {
   padding-top: 50px;
   padding-left: 80px;
 }
 .header_text_blog {
-  font-family: Inter;
+  font-family: Inter,sans-serif;
   font-weight: Bold;
   font-size: 15px;
   padding-left: 421px;
@@ -27,7 +25,7 @@
 }
 .header_text_contact_us {
   display: block;
-  font-family: Inter;
+  font-family: Inter, sans-serif;
   font-weight: Bold;
   font-size: 15px;
   padding-left: 30px;
@@ -41,7 +39,7 @@
   height: 36px;
   background: #6E51E0;
   font-size: 15px;
-  font-family: Inter;
+  font-family: Inter,sans-serif;
   color:#FFFFFF;
   border-radius: 33px;
   text-decoration: none;
@@ -69,7 +67,7 @@
 .about_thrivein {
   text-align: center;
   padding-top: 110px;
-  font-family: Inter;
+  font-family: Inter,sans-serif;
   font-size: 50px;
 }
 .container {
@@ -78,7 +76,7 @@
   height: 1220px;
 }
 .text_1 {
-  font-family: 'Inter';
+  font-family: Inter,sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 26px;
@@ -87,11 +85,12 @@
   height: 335px;
   background: #37D5CF;
   overflow: auto;
-  border-radius: 0px 20px 0px 33px;
+  border-radius: 0 20px 0 33px;
   color: #ffffff;
+  padding-right: 15px;
 }
 .text_2 {
-  font-family: 'Inter';
+  font-family: Inter,sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 26px;
@@ -100,29 +99,23 @@
   width: 640px;
   height: 336px;
   background: #6E51E0;
-  border-radius: 33px 0px 20px 0px;
-  border-bottom-style: solid;
-  border-bottom-color: white;
-  border-bottom-width: 20px ;
   overflow: auto;
   float:right;
 }
 .text_3 {
   width: 640px;
   height: 335px;
-  font-family: Inter;
+  font-family: Inter, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 26px;
   line-height: 40px;
   background: #FFBE00;
-  border: 20px solid #F2F2F2;
-  overflow: auto;
 }
-/*.attached_text {
+.attached_text {
   width: 440px;
   height: 109px;
-  font-family: 'Inter';
+  font-family: Inter,sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 36px;
@@ -131,9 +124,37 @@
   letter-spacing: 0.04px;
   color: #000000;
   float: right;
-}*/
+}
+      /*Подвал сайта*/
 .line {
   width: 1280px;
   height: 10px;
   background: linear-gradient(270deg, #37D5CF 8.12%, #9051E0 89.69%);
+}
+.footer_main {
+  height: 159px;
+  width: 1280px;
+}
+.international {
+  padding: 478px 144px 478px;
+
+}
+.blog {
+  font-family: Inter,sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: -0.02em;
+  color: #4F4F4F;
+  padding: 78px 820px 97px 430px;
+}
+.terms_of_use {
+  font-family: Inter,sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: -0.02em;
+  color: #4F4F4F;
 }
