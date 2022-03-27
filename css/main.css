@@ -22,6 +22,7 @@
 }
 .about{
     background: #F2F2F2;
+    position: relative;
 }
 .about_text{
     font-weight: 700;
@@ -69,6 +70,18 @@
     border-top-right-radius: 40px;
     border-bottom-left-radius: 40px;
     background: #FFBE00;
+}
+.block4{
+    position: absolute;
+    top: 924px;
+    left: 760px;
+    max-width: 440px;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 54px;
+    text-align: center;
+    letter-spacing: 0.04px;
+    color: #000000;
 }
 .store{
     font-size: 36px;
