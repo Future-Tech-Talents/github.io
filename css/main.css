@@ -1,18 +1,21 @@
 .container{
     font-family: 'Inter';
-    max-width: 1280px;
     margin: 0 auto;
-
 }
 .head{
     font-weight: 600;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     margin-top: 50px;
 }
-.logo{
-    margin-right: 420px;
+.content-conteiner{
+    max-width: 1260;
+    padding: 0 80px;
+}
+.link{
+    display: flex;
+    align-items: center;
 }
 .blog, .contact, .btn{
     margin-right: 40px;
@@ -22,7 +25,6 @@
 }
 .about{
     background: #F2F2F2;
-    position: relative;
 }
 .about_text{
     font-weight: 700;
@@ -38,27 +40,27 @@
     color: #FFFFFF;
     text-align: justify;
 }
-.block2, .block3{
+.block2{
     width: 680px;
-    height: 375px;
     box-sizing: border-box;
     padding: 50px;
     border: 20px solid #F2F2F2;
 }
 .block1{
     width: 640px;
-    height: 335px;
     background: #37D5CF;
     border-top-right-radius: 30px;
     border-bottom-left-radius: 30px;
     box-sizing: border-box;
     padding: 50px;
-    margin-left: 80px;
+}
+.right{
+    display: flex;
+    justify-content: flex-end;
 }
 .block2{
     position: relative;
     top: -50px;
-    left: 560px;
     border-top-left-radius: 40px;
     border-bottom-right-radius: 40px;
     background: #6E51E0;
@@ -66,15 +68,21 @@
 .block3{
     position: relative;
     top: -90px;
-    left: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.text-wight{
+    width: 680px;
+    box-sizing: border-box;
+    padding: 50px;
+    border: 20px solid #F2F2F2;
     border-top-right-radius: 40px;
     border-bottom-left-radius: 40px;
     background: #FFBE00;
 }
-.block4{
-    position: absolute;
-    top: 924px;
-    left: 760px;
+.text-black{
     max-width: 440px;
     font-weight: 600;
     font-size: 36px;
@@ -96,9 +104,6 @@
 .store_text{
     max-width: 368px;
     margin-right: 67px;
-}
-.google{
-    margin-top: 22px;
 }
 svg:hover rect{
     fill: #FFBE00;
@@ -144,8 +149,7 @@ svg:hover rect{
 }
 .social{
     display: flex;
-    justify-content: space-around;
-    max-width: 150px;
+    justify-content: center;
     margin: 0 auto;
     padding-top: 30px;
     padding-bottom: 40px;
